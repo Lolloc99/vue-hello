@@ -8,3 +8,11 @@ Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 
 Vue.config.devtools = true;
 
+const app = new Vue(
+    {
+        el: '#root',
+        data: {
+            printText: "Hello Vue",
+        }
+    }
+)
